@@ -1,6 +1,6 @@
 # Sketch Review
 
-This [Sketch plugin](https://www.sketchapp.com) helps you review designs by marking them as `🔴 Pending` or `🔵 Done` using [Emoji](http://emojipedia.org). 
+Review designs by marking them as `🔴 Pending` or `🔵 Done` using [Emoji](http://emojipedia.org). 
 
 <img src="demo.gif" width="400" height="300" />
 
