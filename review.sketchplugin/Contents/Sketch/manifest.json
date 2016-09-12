@@ -1,0 +1,33 @@
+{
+  "name": "Review",
+  "description": "Mark artboards and layers as pending or done",
+  "homepage": "https://github.com/marcelinollano/sketch-review",
+  "identifier": "com.marcelinollano.review",
+  "author": "Marcelino Llano",
+  "compatibleVersion": "39.1",
+  "bundleVersion": 1,
+  "version": "1.0",
+  "commands" : [
+    {
+      "name" : "Toggle",
+      "identifier" : "toggle",
+      "script" : "Review.sketchscript",
+      "handler" : "toggleReview",
+      "shortcut" : "cmd p"
+    },
+    {
+      "name" : "Reset",
+      "identifier" : "reset",
+      "script" : "Review.sketchscript",
+      "handler" : "resetReview",
+      "shortcut" : "cmd alt p"
+    }
+  ],
+  "menu": {
+    "title": "👌 Review",
+    "items": [
+      "toggle",
+      "reset"
+    ]
+  }
+}

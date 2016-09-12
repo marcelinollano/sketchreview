@@ -1,0 +1,58 @@
+// Emojis!
+var nay = "🔴";
+var yay = "🔵";
+
+var toggleReview = function(context) {
+  // Collect the stuff
+  var selection = context.selection
+  var selectionCount = [selection count]
+  var doc = context.document
+
+  if (selectionCount > 0) {
+    for (var i=0; i<selectionCount; i++) {
+      // Got me a layer
+      var layer  = selection[i];
+      var name   = [layer name];
+      var status = 0;
+
+      // Checks current status
+      if (name.substring(0, 2) == nay) { status = 1; };
+      if (name.substring(0, 2) == yay) { status = 2; };
+      
+      // Toggle current status
+      if (status === 0) { name = nay + " " + name; };
+      if (status === 1) { name = yay + name.substring(2); };
+      if (status === 2) { name = nay + name.substring(2); };
+
+      // Sets the layer name
+      [layer setName:name];
+    }
+  } else {
+    // Select something, dude
+    [doc showMessage: "⚠️ Select a layer first"];
+  }
+}
+
+var resetReview = function(context) {
+  // Collect the stuff
+  var selection = context.selection
+  var selectionCount = [selection count]
+  var doc = context.document
+
+  if (selectionCount > 0) {
+    for (var i=0; i<selectionCount; i++) {
+      // Got me a layer
+      var layer  = selection[i];
+      var name   = [layer name];
+      var status = 0;
+
+      // Checks current status
+      if (name.substring(0, 2) == nay) { name = name.substring(3); };
+      if (name.substring(0, 2) == yay) { name = name.substring(3); };
+      [layer setName:name];
+    }
+  } else {
+    // Select something, dude
+    [doc showMessage: "⚠️ Select a layer first"];
+  }
+}
