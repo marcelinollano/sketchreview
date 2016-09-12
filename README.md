@@ -10,7 +10,7 @@ This plugin is so simple, even designers can do use it:
 - `Select artboard / layer` → `⌘ + ALT + P` → Resets the status
 
 
-## Install the plugin
+## How to install
 
 1. ⬇️ [Download the plugin](https://github.com/marcelinollano/sketch-review/releases/download/1.0/review.sketchplugin.zip)
 2. 📦 Extract the `.zip` file
