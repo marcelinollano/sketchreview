@@ -2,17 +2,12 @@
 
 This [Sketch plugin](https://www.sketchapp.com) helps you review designs by marking them as `🔴 Pending` or `🔵 Done` using [Emoji](http://emojipedia.org). 
 
-<br/>
-
 <img src="demo.gif" width="400" height="300" />
 
-<br/>
-
-This plugin is so simple, even designers can do use it:
+You can use the menu or, better yet, using shortcuts:
 
 - `Select artboard / layer` → `⌘ + P` → Toggles `🔴 Pending` / `🔵 Done`
 - `Select artboard / layer` → `⌘ + ALT + P` → Resets the status
-
 
 ## How to install
 
