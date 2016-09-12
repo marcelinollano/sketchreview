@@ -4,7 +4,7 @@ This [Sketch plugin](https://www.sketchapp.com) helps you review designs by mark
 
 <img src="demo.gif" width="400" height="300" />
 
-You can use the menu or, better yet, using shortcuts:
+You can use it from the plugins menu or using the keyboard shortcuts:
 
 - `Select artboard / layer` → `⌘ + P` → Toggles `🔴 Pending` / `🔵 Done`
 - `Select artboard / layer` → `⌘ + ALT + P` → Resets the status
