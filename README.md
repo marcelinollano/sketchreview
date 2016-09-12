@@ -1,11 +1,11 @@
 # Sketch Review
 
-This [Sketch](https://www.sketchapp.com) plugin helps you mark designs as `🔴 Pending / 🔵 Done` by placing [Emoji](http://emojipedia.org) in front of artboards or layers. 
+This [Sketch](https://www.sketchapp.com) plugin helps you mark designs as `🔴 Pending` / `🔵 Done` by placing [Emoji](http://emojipedia.org) in front of artboards or layers. 
 
-It is so simple to use that even designers can do use it:
+This plugin is so simple, even designers can do use it:
 
-- `Select artboard / layer` → `⌘ + P` 👉 `Toggles 🔴 Pending / 🔵 Done`
-- `Select artboard / layer` → `⌘ + ALT + P` 👉 `Reset artboard / layer status`
+- `Select artboard / layer` → `⌘ + P` 👉 Toggles `🔴 Pending` / `🔵 Done`
+- `Select artboard / layer` → `⌘ + ALT + P` 👉 Resets the status
 
 ## Demo
 
@@ -14,5 +14,6 @@ It is so simple to use that even designers can do use it:
 
 ## Install
 
-1. 📦 [Download the plugin]()
-2. ⚡️ Double-click to install
+1. ⬇️ [Download the plugin](https://github.com/marcelinollano/sketch-review/releases/download/1.0/review.sketchplugin.zip)
+2. 📦 Extract the file
+3. ⚡️ Double-click to install
