@@ -1,6 +1,6 @@
 # Sketch Review
 
-Review designs by marking them as `🔴 Pending` or `🔵 Done` using [Emoji](http://emojipedia.org). 
+Review designs by marking them as `🔴 Pending` or `🔵 Done` with Emoji. 
 
 <img src="demo.gif" width="400" height="300" />
 
